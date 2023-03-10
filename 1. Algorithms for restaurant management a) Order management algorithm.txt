@@ -1,0 +1,9 @@
+1. Algorithms restaurant management system
+ a) Order management algorithm
+step1: Start
+step2: Receive Menu
+step3: view the menu
+step4: Search for good quality food and cost
+step5: If we got good food list
+step6: Order the food 
+stop7: Stop
