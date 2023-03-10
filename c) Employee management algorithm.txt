@@ -1,0 +1,7 @@
+c)Employee management algorithm
+step1: start
+step2: collect the information about the employee
+step3: test the employee
+step4:identify the best employee
+step5:give the job
+step6:stop
