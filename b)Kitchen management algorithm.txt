@@ -1,0 +1,7 @@
+b)Kitchen management algorithm
+step1: start
+step2:received the food item lits
+step3:start to collect the items to prepare food
+step4:start to doing the food
+step5:handover to the customer
+step6:stop
