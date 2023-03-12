@@ -1,0 +1,27 @@
+begin
+num basic salary
+print("enter the basic salary")
+input basic salary
+if(basic salary<=100000)
+{
+hra=67*basic salary/100
+da=78*basic salary/100
+gs=basic+hra+da
+print(gs)
+}
+elif(basic salary between 100000-200000)
+{
+hra=69*basic salary/100
+da=79*basic salary/100
+gs=hra+da+basic salary
+print(gs)
+}
+else(basic salary>200000)
+{
+hra=75*basic salary/100
+da=85*basic salary/100
+gs=hra+da+basic salary
+print(gs)
+}
+end
+
