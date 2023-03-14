@@ -1,0 +1,252 @@
+1)write a program to print 1-10 numbers
+
+begin
+numeric num=1
+while(num<=10)
+{
+print(num)
+}
+num++
+end
+
+2) write a program to print 10-1 numbers
+
+begin
+numeric num=10
+while(num<=10)
+{
+print(num)
+}
+num--
+end
+
+3)write a program to print 1-n numbers
+
+begin
+numeric num=1
+while(num<=n)
+{
+print(num)
+}
+end
+
+4)write a program to print even numbers between 1-n
+
+begin
+numeric num=1
+while(num<=n)
+{
+if(num%2==0){
+print(num)
+}
+num++
+}
+end
+
+5)write a program to print odd numbers between 1-n
+
+begin
+numeric num=1
+while(num<=n)
+{
+if(num%2!==0){
+print(num)
+}
+num++
+}
+end
+
+
+6)printing the start and the stop value
+
+begin
+numeric startvalue,stopvalue
+print("enter startvalue and stopvalue)
+input startvalue
+input stopvalue
+while(startvalue<=stopvalue)
+{
+print ("startvalue")
+startvalue++
+}
+end
+
+printing the mid value 
+begin
+numeric startvalue,stopvalue, s
+print("enter the start value")
+input start value
+print("enter the stop value")
+input stop value
+while(stop value<=10)
+{
+s=stop value-start value/2
+print(s)
+}
+end
+
+7) write a program to print factors of given number
+
+begin
+numeric num,i=1
+print("enter the num")
+input num
+while(i<=num)
+{
+if(num%i==0)
+{
+print(i)
+}
+i++
+end
+
+8)write to find number of factors a given a given number
+
+begin
+numeric num,i=1,count=0
+print("enter the num")
+input num
+while(i<=num)
+{
+if(num%i==0)
+{
+print(i)
+count=count+1
+}
+i++
+print(count)
+end
+
+
+9)write to check given number id prime or not
+
+begin
+numeric n,i=1,c=0
+while(n>1){
+if(n%i==0){
+c=c+1
+i++
+}
+if(c=2){
+print ("prime number")
+}
+else{
+print("not prime number")
+}
+}
+end
+
+10) write to check given number armstrong number or not
+
+begin
+numeric num,r,sum=0,temp
+print("enter the num")
+input input
+temp=num
+while(num>0)
+{
+r=num%10
+sum=sum+(r*r*r)
+num=num/10
+}
+if(temp==sum)
+print("armstrong  number")
+else    
+printf("not armstrong number");    
+end
+
+
+do while
+
+1) write a program 1-10 numbers
+
+begin
+numeric num=1
+do
+{
+print(num)
+num++
+}
+while(num<=10)
+end
+
+2) write a program 10-1 numbers
+
+begin
+numeric num=10
+do
+{
+print(num)
+num--
+}
+while(num<=10)
+end
+
+3) write a program 1-n numbers
+
+begin
+numeric num=1
+do
+{
+print(num)
+num++
+}
+while(num<=n)
+end
+
+4) write a program even numbers between 1-n
+
+begin
+numeric n,i=1
+print("enter the num value")
+input num
+do
+{
+if(i%2==0)
+{
+print(i)
+}
+i++
+}
+while(i<=n)
+end
+
+5) write a program odd numbers between 1-n
+
+begin
+numeric n,i=1
+print("enter the num value")
+input num
+do
+{
+if(i%2!=0)
+{
+print(i)
+}
+i++
+}
+while(i<=n)
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
